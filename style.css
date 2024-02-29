@@ -36,7 +36,8 @@ body {
   margin-bottom: 25px;
 }
 
-.game-item {
+.game-item,
+.comp-item {
   width: 120px;
   height: 120px;
   border-radius: 25%;
@@ -64,4 +65,12 @@ body {
 .res {
   font-style: italic;
   text-align: center;
+}
+
+.game-item {
+  transition: all 0.3s;
+}
+
+.game-item:hover {
+  transform: translateY(-15px);
 }

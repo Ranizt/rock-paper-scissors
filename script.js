@@ -51,6 +51,6 @@ for (const btn of playerBtns) {
 resetBtn.addEventListener('click', () => {
   yourNotiEl.textContent = 'Pick one!';
   compNotiEl.textContent = 'Waiting for your choice...';
-  resultEl.textContent = '';
+  resultEl.textContent = "Let's go!";
   generateCompChoice();
 });
