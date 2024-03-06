@@ -52,5 +52,6 @@ resetBtn.addEventListener('click', () => {
   yourNotiEl.textContent = 'Pick one!';
   compNotiEl.textContent = 'Waiting for your choice...';
   resultEl.textContent = "Let's go!";
+  compBtn.src = `item/question-mark.png`;
   generateCompChoice();
 });
